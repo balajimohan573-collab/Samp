@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Rentals</title>
+    <link rel="stylesheet" href="rental.css">
+</head>
+<body>
+    <header>
+        <h1>Student Rental Finder</h1>
+    </header>
+
+    <!-- Student Registration -->
+    <section class="registration">
+        <h2>Register as a Student</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Property Owner Registration -->
+    <section class="owner-registration">
+        <h2>Register as a Property Owner</h2>
+        <form>
+            <input type="text" placeholder="Owner Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone" required>
+            <input type="text" placeholder="Property Name" required>
+            <input type="text" placeholder="Location" required>
+            <input type="number" placeholder="Price (₹)" required>
+            <select required>
+                <option value="">Select Type</option>
+                <option value="apartment">Apartment</option>
+                <option value="pg">PG</option>
+                <option value="house">House</option>
+            </select>
+            <button type="submit">Submit Property</button>
+        </form>
+    </section>
+
+    <!-- Available Properties -->
+    <section class="properties">
+        <h2>Available Properties</h2>
+        
+        <div class="property-card">
+            <h3>Gents & Ladies PGs</h3>
+            <p>Location: Around Thandalam,Saveetha Nagar,and Poonamalee </p>
+            <p>Price: ₹6,000-₹10,000/ month</p>
+            <p>Food Available=yes</p>
+            <p>Type: PG</p>
+        </div>
+
+        <div class="property-card">
+            <h3>Private PGs</h3>
+            <p>Location: In Velappanchavadi,Saveetha Nagar,and Mangadu side</p>
+            <p>Price: ₹5,500-₹9,000 / month</p>
+            <p>Type: PG</p>
+        </div>
+
+        <div class="property-card">
+            <h3>Shared Apartments</h3>
+            <p>Location: 2BHK</p>
+            <p>Price: ₹12,000-₹15-000 / month</p>
+            <p>Type: Apartments</p>
+        </div>
+    </section>
+    <h4>FOR FORTHERE INFORMATION </h4>
+    <h6>contact:6383535497</h6>
+</body>
+</html>
